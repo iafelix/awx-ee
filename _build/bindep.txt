@@ -1,0 +1,6 @@
+python38-devel [platform:rpm compile]
+procps [platform:dpkg]
+procps [platform:rpm]
+subversion [platform:dpkg]
+subversion [platform:rpm]
+git-lfs [platform:rpm]

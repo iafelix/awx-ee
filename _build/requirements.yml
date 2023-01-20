@@ -1,0 +1,18 @@
+---
+collections:
+  - name: amazon.aws
+  - name: ansible.posix
+  - name: ansible.windows
+  - name: awx.awx
+  - name: azure.azcollection
+  - name: community.hashi_vault
+  - name: community.vmware
+  - name: community.windows
+  - name: community.zabbix
+  - name: google.cloud
+  - name: kubernetes.core
+  - name: openstack.cloud
+  - name: ovirt.ovirt
+  - name: redhatinsights.insights
+  - name: servicenow.servicenow
+  - name: theforeman.foreman
