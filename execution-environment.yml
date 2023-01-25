@@ -7,6 +7,9 @@ dependencies:
   system: _build/bindep.txt
   python: _build/requirements.txt
 additional_build_steps:
+  prepend:
+    - RUN dnf upgrade -y
+    - RUN python3 -m pip install --upgrade pip
   append:
     - RUN alternatives --set python /usr/bin/python3
     - COPY --from=quay.io/ansible/receptor:devel /usr/bin/receptor /usr/bin/receptor

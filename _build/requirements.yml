@@ -12,7 +12,6 @@ collections:
   - name: google.cloud
   - name: kubernetes.core
   - name: openstack.cloud
-  - name: ovirt.ovirt
   - name: redhatinsights.insights
   - name: servicenow.servicenow
   - name: theforeman.foreman
